@@ -122,6 +122,27 @@
     text-align: center;
 }
 
+.tipo{
+    text-transform: capitalize;
+}
+
+.detail:hover .tipo{
+    width: 100%;
+}
+
+#moreDetail{
+    display: none;
+}
+
+.detail:hover  #moreDetail{
+    display: block;
+}
+
+.detail:hover {
+    flex-direction: column;
+    flex-grow: 2;
+}
+
 .pokemon .detail img {
     max-width: 100%;
     height: 70px;
